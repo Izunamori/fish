@@ -9,10 +9,3 @@ function fish_prompt
 end
 
 set -U fish_greeting ""
-
-
-
-# Added by LM Studio CLI (lms)
-set -gx PATH $PATH /home/izunamori/.lmstudio/bin
-# End of LM Studio CLI section
-

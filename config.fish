@@ -4,8 +4,7 @@ if status is-interactive
 end
 
 function fish_prompt
-    echo -n (prompt_pwd) "
-    > " # ➜ ➤ ➦ ➥ ➔ ❯ ❱ ➭ ➙ ➽ ➼ 
+    echo -n (prompt_pwd) "> " # ➜ ➤ ➦ ➥ ➔ ❯ ❱ ➭ ➙ ➽ ➼ 
 end
 
 set -U fish_greeting ""
